@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+            background-color: rgb(87, 87, 235);
+            color: white;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="title">Iniciando o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    
+    <script>
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[1]
+        var d = document.getElementById('msg')
+        var titulo = document.querySelector('h1#title')
+
+        titulo.style.color = 'red'
+
+        corpo.style.background = 'pink'
+        corpo.style.border = '5px solid black'
+        corpo.style.position = 'absolute'
+        corpo.style.padding = '15px'
+
+        p1.style.background = 'red'
+        p1.style.color = 'black'
+
+        d.style.background = 'orange'
+        d.style.color = 'dodgerblue'
+
+        // O JAVASCRIPT SE SOBRESAI SOBRE OS COMANDOS DO STYLE CSS INLINE OU CSS OUTLINE
+        // SELEÇÕES POR MARCA, NOME, ID, CLASS, e QUERY SELECTOR
+        // DOM - DOCUMENT OBJECT MODEL
+    </script>
+</body>
+</html>
