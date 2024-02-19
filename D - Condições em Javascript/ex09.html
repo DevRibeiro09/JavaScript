@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+    <h1>Naturalidade</h1>
+    <input type="text" placeholder="Seu país de origem" id="paisorigem" name="paisorigem">
+    <input type="Button" value="Definir" id="button" name="button"onclick="definir()">
+    <div id="res">
+
+    </div>
+    <script>
+        function definir() {
+            var pais = window.document.querySelector('input#paisorigem')
+            var res = Text(value.pais)
+            if (res == "Brasil") {
+                res.innerHTML = `Seu país de origem é o ${pais}.`
+                res.innerHTML += `Você é Brasileiro`   
+            } 
+        }
+
+    </script>
+<body>
+    
+</body>
+</html>
