@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pág Teste</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>  
+    <div id="box" class="box">
+        <div id="header_box"> 
+            <h1>MEQUI LANCHE FELIZ</h1>
+            <h2>Opções de lanche disponíveis:</h2>
+        </div>  
+
+        <div id="options_box" class="options_box">  
+            <select name="options" id="options" required>
+                <option value="option_value" data-default disabled selected id="options"> Selecione </option>
+                <option value="option_value" id="options"> X-Salada </option>
+                <option value="option_value" id="options"> X-Egg </option>
+                <option value="option_value" id="options"> X-Bacon </option>
+                <option value="option_value" id="options"> X-Picanha </option>
+                <option value="option_value" id="options"> X-Calabresa </option>
+                <option value="option_value" id="options"> X-Milho </option>
+                <option value="option_value" id="options"> X-Galeto </option>
+                <option value="option_value" id="options"> X-Vegano </option>
+            </select> <br><br>
+
+            <input type="submit" value="Confirmar" id="button" onclick="confirmar_pedido()">
+        </div>
+    </div>   
+</body>
+</html>
