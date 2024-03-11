@@ -1,0 +1,32 @@
+.box {  
+    margin: 15px;
+    padding: 12px;
+    background: #0a596d;
+    height: auto;
+    width: 450px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+}
+
+#button {
+    border: none;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    height: 15%;
+}
+
+#button:hover{
+    background: rgb(85, 126, 201);
+}
+
+.labels {
+    border: none;
+    margin: 4px;
+}
