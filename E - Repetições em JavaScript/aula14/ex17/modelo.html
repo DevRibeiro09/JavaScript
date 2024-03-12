@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dia</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1> Hora do Dia</h1>
-
+        <h1>Tabuada</h1>
     </header>
-
     <section>
-
-        <div id="msg">
-            Mensagem
+        <div>
+            <p>Numero: <input type="number" name="num" id="txtn">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
         </div>
-        
-        <div id="photo">
-            <img src="photomorning.jpg" alt="Foto do Dia" id="imagem">
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
         </div>
-
     </section>
 
     <footer>
         <p>&copy; Bagaceira.com</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
